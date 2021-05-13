@@ -1,0 +1,183 @@
+{
+  "Products":[
+      {
+          "id":1,
+          "name":"Realme 6 Pro",
+          "description":"This is Realme 6 pro",
+          "price":21000,
+          "review":3,
+          "imageurl":[
+              "../../assets/images/realmeBlue.jpeg",
+              "../../assets/images/realmeblack.jpeg",
+              "../../assets/images/realmeOrange.jpeg"
+           
+          ],
+          "qty":1,
+          "colorvariants":["Blue","Black","Orange"],
+          "productReviews":[{
+              "username":"Prateek Singh",
+              "comment":"Lorem ipsum dolor sit amet consectetur adipisicing elit. A corrupti temporibus doloremque quos. Voluptas mollitia ea suscipit dicta, dolorum quasi. Itaque recusandae cum officiis earum non sapiente dicta voluptas illum!",
+              "ratings":3,
+              "date":"June 15, 2020"
+          },
+          {
+            "username":"Aman",
+            "comment":"Lorem ipsum dolor sit amet consectetur adipisicing elit. A corrupti temporibus doloremque quos. Voluptas mollitia ea suscipit dicta, dolorum quasi. Itaque recusandae cum officiis earum non sapiente dicta voluptas illum!",
+            "ratings":3,
+            "date":"July 26, 2020"
+        }
+        ]
+
+      },
+      {
+          "id":2,
+          "name":"Hacket T-shirt",
+          "description":"This is book ",
+          "price":15100,
+          "review":2,
+          "imageurl":[
+              "../../assets/images/red.jpeg",
+              "../../assets/images/black.jpeg",
+              "../../assets/images/blue.jpeg"
+          ],
+          "qty":1,
+          "colorvariants":["Red","Black","Blue"],
+          "productReviews":[{
+              "username":"Prateek",
+              "comment":"Lorem ipsum dolor sit amet consectetur adipisicing elit. A corrupti temporibus doloremque quos. Voluptas mollitia ea suscipit dicta, dolorum quasi. Itaque recusandae cum officiis earum non sapiente dicta voluptas illum!",
+              "ratings":3,
+              "date":"feb 9, 2021"
+          }]
+
+      },
+      {
+          "id":3,
+          "name":"Earphone",
+          "description":"This is book ",
+          "price":900,
+          "review":5,
+          "imageurl":[
+            "../../assets/images/earphoneblue.jpeg",
+            "../../assets/images/earphoneBlack.jpeg",
+            "../../assets/images/earphonegreen.jpeg"
+          ],
+          "qty":1,
+          "colorvariants":["Blue","Black","Green"],
+          "productReviews":[{
+              "username":"Prateek",
+              "comment":"Lorem ipsum dolor sit amet consectetur adipisicing elit. A corrupti temporibus doloremque quos. Voluptas mollitia ea suscipit dicta, dolorum quasi. Itaque recusandae cum officiis earum non sapiente dicta voluptas illum!",
+              "ratings":3,
+              "date":"Dec 14, 2020"
+          }]
+
+      },
+      {
+          "id":4,
+          "name":"Iphone",
+          "description":"This is book ",
+          "price":81000,
+          "review":4,
+          "imageurl":[
+             "../../assets/images/iphoneBlack.jpeg",
+             "../../assets/images/iphoneBlue.jpeg",
+             "../../assets/images/iphonePurple.jpeg"
+          ],
+          "qty":1,
+          "colorvariants":["Black","Blue","Purple"],
+          "productReviews":[{
+              "username":"Shubham",
+              "comment":"Lorem ipsum dolor sit amet consectetur adipisicing elit. A corrupti temporibus doloremque quos. Voluptas mollitia ea suscipit dicta, dolorum quasi. Itaque recusandae cum officiis earum non sapiente dicta voluptas illum!",
+              "ratings":3,
+              "date":"October 14, 2020"
+          }]
+
+      },
+      {
+        "id":5,
+        "name":"Headphone",
+        "description":"This is book ",
+        "price":100,
+        "review":3,
+        "imageurl":[
+           "../../assets/images/headphoneBlack.jpeg",
+           "../../assets/images/headphonewhite.jpeg",
+           "../../assets/images/headphonered.jpeg"
+        ],
+        "qty":1,
+        "colorvariants":["Black","White","Red"],
+        "productReviews":[{
+            "username":"Raman",
+            "comment":"Lorem ipsum dolor sit amet consectetur adipisicing elit. A corrupti temporibus doloremque quos. Voluptas mollitia ea suscipit dicta, dolorum quasi. Itaque recusandae cum officiis earum non sapiente dicta voluptas illum!",
+            "ratings":3,
+            "date":"October 14, 2020"
+        }]
+
+    },
+    {
+        "id":6,
+        "name":"Laptop",
+        "description":"This is book ",
+        "price":100,
+        "review":3,
+        "imageurl":[
+            "../../assets/images/laapiBlue.jpeg",
+            "../../assets/images/lapiblack.jpeg",
+            "../../assets/images/lapigrey.jpeg"
+            
+        ],
+        "qty":1,
+        "colorvariants":["Blue","Black","Grey"],
+        "productReviews":[{
+            "username":"Prateek",
+            "comment":"Lorem ipsum dolor sit amet consectetur adipisicing elit. A corrupti temporibus doloremque quos. Voluptas mollitia ea suscipit dicta, dolorum quasi. Itaque recusandae cum officiis earum non sapiente dicta voluptas illum!",
+            "ratings":3,
+            "date":"October 14, 2020"
+        }]
+
+    },
+    {
+        "id":7,
+        "name":"Earpods",
+        "description":"This is book ",
+        "price":100,
+        "review":2,
+        "imageurl":[
+            "../../assets/images/earpodsblack.jpeg",
+            "../../assets/images/earpodsblue.jpeg",
+            "../../assets/images/earpodswhite.jpeg"
+            
+        ],
+        "qty":1,
+        "colorvariants":["Black","Blue","White"],
+        "productReviews":[{
+            "username":"Kunwar",
+            "comment":"Lorem ipsum dolor sit amet consectetur adipisicing elit. A corrupti temporibus doloremque quos. Voluptas mollitia ea suscipit dicta, dolorum quasi. Itaque recusandae cum officiis earum non sapiente dicta voluptas illum!",
+            "ratings":3,
+            "date":"june 14, 2020"
+        }]
+
+    },
+    {
+        "id":8,
+        "name":"Laptop",
+        "description":"This is book ",
+        "price":100,
+        "review":1,
+        "imageurl":[
+            "../../assets/images/laapiBlue.jpeg",
+            "../../assets/images/lapiblack.jpeg",
+            "../../assets/images/lapigrey.jpeg"
+            
+        ],
+        "qty":1,
+        "colorvariants":["Blue","Black","Grey"],
+        "productReviews":[{
+            "username":"Braham",
+            "comment":"Lorem ipsum dolor sit amet consectetur adipisicing elit. A corrupti temporibus doloremque quos. Voluptas mollitia ea suscipit dicta, dolorum quasi. Itaque recusandae cum officiis earum non sapiente dicta voluptas illum!",
+            "ratings":3,
+            "date":"October 21, 2020"
+        }]
+
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+<div>
+    <input type="text" class="form-control mt-2" placeholder="Enter Coupon Code" id="code"  [(ngModel)]="name" aria-describedby="button-addon1" (keyup.enter)="onKeyUpEnter($event)">
+    <span class="help-block" *ngIf="name==coupon">{{message}}</span>
+    <div class="mt-2">
+        <div class="d-flex justify-content-between">
+            <div> Subtotal</div>
+            <p> ${{cartTotal}}</p>
+        </div>
+        <div class="d-flex justify-content-between">
+            <div> Shipping</div>
+            <p> Free</p>
+        </div>
+        <div class="d-flex justify-content-between">
+            <div> Taxes</div>
+            <p> $13</p>
+        </div>
+        <div class="d-flex justify-content-between">
+            <div> Coupon</div>
+            <p> 10%</p>
+        </div>
+        <div class="d-flex justify-content-between">
+            <div> Total</div>
+            <p> ${{totalBill}}</p>
+        </div>
+    </div>
+</div>

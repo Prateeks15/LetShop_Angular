@@ -1,0 +1,16 @@
+<div class="d-flex mb-4">
+    <div>
+        <img class="img-product" width="130" height='100' [src]="productItem.imageurl[0]">  
+        <button type="button" class="btn btn-sm btn-primary" (click)="setCart(productItem)">Add to Cart</button>
+    </div>
+    <div class="product-detail ms-3 w-100">
+        <h6 ><a routerLink="/dashboard/{{productItem.id}}">{{productItem.name}}</a></h6>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+        <p>${{productItem.price}}</p>
+    </div>
+</div>
+

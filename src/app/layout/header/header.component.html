@@ -1,0 +1,14 @@
+<div class="d-flex flex-column justify-content-center align-items-center header pt-4">
+    <h2>Tagline describing your E-shop</h2>
+    <div class="col-md-6 mb-4 mt-2">
+        <div class="input-group md-form form-sm form-2 pl-0">
+          <input class="form-control my-0 py-1 amber-border" type="text" placeholder="Search" name="name" [(ngModel)]="name" (ngModelChange)="Search()">
+          <div class="input-group-append ">
+            <button type="button" class="btn btn-primary" onkeyup="processChange()">
+              <i class="fa fa-search"></i>
+            </button>
+          </div>
+        </div>
+  
+      </div>
+</div>

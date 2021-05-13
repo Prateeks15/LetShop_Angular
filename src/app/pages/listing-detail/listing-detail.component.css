@@ -1,0 +1,19 @@
+.checked {
+    color: orange;
+  }
+
+  select{
+    width:40%;
+  }
+
+  .list-border{
+    border-bottom: 1px solid grey;
+    padding-bottom: 1rem;
+  }
+  p{
+    margin:0;
+    padding: 0;;
+  }
+  /* .review-text{
+    margin-left: 13rem;
+  } */

@@ -1,0 +1,35 @@
+p{
+    margin:0;
+    padding:0;
+}
+.checked {
+    color: orange;
+  }
+
+ 
+.btn{
+    display: none;
+    position: relative;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color:  #bd193e;
+    border-color: #bd193e;    ;
+  
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+img:hover + .btn, .btn:hover {
+    display: block;
+}
+
+@media  screen and (max-width:768px) {
+    .btn{
+        display: inline-block;
+    }
+}

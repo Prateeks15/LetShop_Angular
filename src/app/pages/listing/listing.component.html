@@ -1,0 +1,23 @@
+<div class="d-flex flex-column justify-content-center align-items-center header pt-4">
+  <div class="typewriter">
+    <h3>Whatever you’ve got in mind, we’ve got inside.</h3>
+  </div> 
+  
+    <div class="col-md-6 mb-4 mt-2">
+        <div class="input-group md-form form-sm form-2 pl-0 search">
+          <input class="form-control my-0 py-1 amber-border " type="text" placeholder="Search" name="name" [(ngModel)]="name" (ngModelChange)="Search()">
+        </div>
+  
+      </div>
+</div>
+<div class="container">
+<div class="row">
+    <div class="d-flex flex-column justify-content-center align-item-center text-center text">
+        <h3>Our Products</h3>
+        
+    </div>
+    <div class="col-md-4 col-sm-6 col-xs-12 d-flex justify-content-center my-4 " *ngFor="let product of productList">
+        <app-listing-item [productItem] ="product"></app-listing-item>
+    </div>
+</div>
+</div>

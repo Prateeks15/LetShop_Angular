@@ -1,0 +1,39 @@
+.checkout{
+    text-align: center;
+}
+.checkout>div {
+    border-bottom: 1px solid grey;
+    width: 42%;
+    padding-bottom:1rem;
+}
+
+.button
+{
+background-color:  #bd193e;
+}
+
+.checkout .active{
+    border-bottom: 2px solid blue;
+}
+p{
+    margin:0;
+    padding:0;
+}
+
+h3{
+    border-bottom: 1px solid grey;
+    padding-bottom: 0.7rem;
+}
+
+.shopping{
+    margin-right: 3rem;
+}
+
+@media only screen and (max-width:768px){
+    .cart{
+        flex-direction: column;
+    }
+    .number-input{
+        margin: 1rem 0;
+    }
+}

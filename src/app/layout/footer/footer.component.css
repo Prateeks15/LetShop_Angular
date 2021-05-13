@@ -1,0 +1,38 @@
+li{
+    padding: 0 0.7rem;
+    margin-left: 0.7rem;
+}
+li::after{
+    content: '';
+    border-right: 1px solid grey;
+    padding-left: 1rem;;
+  
+}
+li:last-child::after{
+    border-right:none;
+}
+
+footer{
+    border-top: 1px solid grey;
+    margin-top: 1rem;
+    color:#fff;
+   
+}
+
+@media only screen and (max-width:768px){
+    ul{
+        flex-direction: column;
+    }
+    li{
+        margin-top: 10px;
+    }
+    li::after{
+        border-right: none;
+        
+    }
+}
+
+.footer
+{
+    background-color:  #bd193e !important;
+}

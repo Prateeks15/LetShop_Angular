@@ -1,0 +1,17 @@
+<nav class="navbar navbar-expand-lg bg py-3">
+    <div class="container">
+      <a class="navbar-brand title heading" routerLink="/dashboard">LetShop</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" routerLinkActive="active" aria-current="page" routerLink="/dashboard">Home</a>
+          <a class="nav-link" routerLinkActive="active">About</a>
+          <a class="nav-link" routerLinkActive="active" routerLink="shopping">Shop</a>
+          <a class="nav-link" routerLinkActive="active">Help</a>
+          <a class="btn btn-primary"  routerLink="shopping" *ngIf="!router.url.includes('shopping')">Your Cart<span class="ms-2 length " *ngIf="carts.length>=1 &&  !router.url.includes('success')">{{carts.length}}</span></a>
+        </div>
+      </div>
+    </div>
+  </nav>

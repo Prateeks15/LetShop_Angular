@@ -1,0 +1,14 @@
+<div>
+    <div *ngFor="let item of carts">
+        <div class="d-flex mt-3 ">
+            <div class = "col-md-8">
+                <img [src]="item.imageurl[0]" class="img-fluid">
+            </div>
+            <div class="ms-2 col-md-4">
+                <div>{{item.name}}</div>
+                <p>${{item.price}}</p>
+            </div>
+        </div>
+    </div>
+    
+</div>
