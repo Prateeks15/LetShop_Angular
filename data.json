@@ -32,7 +32,7 @@
       {
           "id":2,
           "name":"Hacket T-shirt",
-          "description":"This is book ",
+          "description":"This is a tshirt ",
           "price":15100,
           "review":2,
           "imageurl":[
@@ -53,7 +53,7 @@
       {
           "id":3,
           "name":"Earphone",
-          "description":"This is book ",
+          "description":"This is a ear phone ",
           "price":900,
           "review":5,
           "imageurl":[
@@ -73,17 +73,17 @@
       },
       {
           "id":4,
-          "name":"Iphone",
-          "description":"This is book ",
+          "name":"Men Jean",
+          "description":"This is jeans ",
           "price":81000,
           "review":4,
           "imageurl":[
-             "../../assets/images/iphoneBlack.jpeg",
-             "../../assets/images/iphoneBlue.jpeg",
-             "../../assets/images/iphonePurple.jpeg"
+             "../../assets/images/jeanbl.jpeg",
+             "../../assets/images/jeanb.jpeg",
+             "../../assets/images/jeanbe.jpeg"
           ],
           "qty":1,
-          "colorvariants":["Black","Blue","Purple"],
+          "colorvariants":["Black","Blue","Beige"],
           "productReviews":[{
               "username":"Shubham",
               "comment":"Lorem ipsum dolor sit amet consectetur adipisicing elit. A corrupti temporibus doloremque quos. Voluptas mollitia ea suscipit dicta, dolorum quasi. Itaque recusandae cum officiis earum non sapiente dicta voluptas illum!",
@@ -95,13 +95,13 @@
       {
         "id":5,
         "name":"Headphone",
-        "description":"This is book ",
+        "description":"This is a headphone",
         "price":100,
         "review":3,
         "imageurl":[
-           "../../assets/images/headphoneBlack.jpeg",
-           "../../assets/images/headphonewhite.jpeg",
-           "../../assets/images/headphonered.jpeg"
+           "../../assets/images/headb.jpeg",
+           "../../assets/images/headw.jpeg",
+           "../../assets/images/headr.jpeg"
         ],
         "qty":1,
         "colorvariants":["Black","White","Red"],
@@ -115,18 +115,18 @@
     },
     {
         "id":6,
-        "name":"Laptop",
-        "description":"This is book ",
+        "name":"Mixer Grinder",
+        "description":"This is a mixer grinder ",
         "price":100,
         "review":3,
         "imageurl":[
-            "../../assets/images/laapiBlue.jpeg",
-            "../../assets/images/lapiblack.jpeg",
-            "../../assets/images/lapigrey.jpeg"
+            "../../assets/images/mixerw.jpeg",
+            "../../assets/images/mixerb.jpeg",
+            "../../assets/images/mixerr.jpeg"
             
         ],
         "qty":1,
-        "colorvariants":["Blue","Black","Grey"],
+        "colorvariants":["White","Black","Red"],
         "productReviews":[{
             "username":"Prateek",
             "comment":"Lorem ipsum dolor sit amet consectetur adipisicing elit. A corrupti temporibus doloremque quos. Voluptas mollitia ea suscipit dicta, dolorum quasi. Itaque recusandae cum officiis earum non sapiente dicta voluptas illum!",
